@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="add_new_item">Add new item</string>
+    <string name="title">Title</string>
+    <string name="enter_text">Enter text</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="add_note">Add Note</string>
+    <string name="action">Action</string>
+    <string name="type_something">Type something...</string>
+    <string name="untitled">Untitled</string>
+    <string name="nothing_save">Nothing to save</string>
+    <string name="no_notes_available">No notes available</string>
+</resources>
