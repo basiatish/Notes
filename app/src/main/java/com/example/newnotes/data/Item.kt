@@ -1,6 +1,5 @@
 package com.example.newnotes.data
 
-import androidx.annotation.Nullable
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -9,12 +8,14 @@ import androidx.room.PrimaryKey
 data class Item(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
-    @Nullable
     @ColumnInfo(name = "title")
-    val title: String,
-    @Nullable
+    val title: String?,
     @ColumnInfo(name = "note")
-    val note: String,
+    val note: String?,
     @ColumnInfo(name = "date")
     val date: String,
+    @ColumnInfo(name = "viewId")
+    val viewId: Int,
+    @ColumnInfo(name = "color")
+    val color: Int
 )

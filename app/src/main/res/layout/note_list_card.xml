@@ -6,13 +6,12 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.google.android.material.card.MaterialCardView
+    <LinearLayout
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="8dp"
-        app:cardCornerRadius="25dp"
-        app:cardElevation="8dp">
+        android:background="@drawable/card_background">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,13 +37,16 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <View
-                    android:id="@+id/color"
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
+                <LinearLayout
+                    android:id="@+id/color_dot"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
                     android:layout_weight="1"
                     android:layout_marginEnd="8dp"
-                    android:gravity="center" />
+                    android:gravity="center"
+                    android:backgroundTint="@color/orange_60"
+                    android:background="@drawable/color_dot_background"
+                    android:orientation="horizontal" />
 
             </LinearLayout>
 
@@ -62,7 +64,7 @@
                 android:id="@+id/note_body"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
                 android:text="@string/type_something"
                 android:textColor="#928E8E"
@@ -70,6 +72,6 @@
                 tools:text="Type something..."/>
         </LinearLayout>
 
-    </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
 
 </LinearLayout>

@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     app:defaultNavHost="true"
+    android:paddingHorizontal="8dp"
     app:navGraph="@navigation/nav_graph">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -16,8 +17,7 @@
         android:layout_marginEnd="16dp"
         android:clickable="true"
         android:focusable="true"
-        app:borderWidth="0dp"
-        app:elevation="6dp"
+        app:elevation="4dp"
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,6 +28,9 @@
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -49,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:padding="30dp"
+            android:padding="24dp"
             android:text="@string/no_notes_available"
             android:textAppearance="?attr/textAppearanceHeadline6" />
 

@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.Flow
 interface ItemDao {
 
     @Query("SELECT * FROM item")
-    fun getNotes() : Flow<List<Item>>
+    suspend fun getNotes() : List<Item>
 
     @Query("SELECT * FROM item WHERE id = :id")
     fun getNote(id: Int) : Flow<Item>
@@ -20,4 +20,7 @@ interface ItemDao {
 
     @Delete
     suspend fun delete(item: Item)
+
+    @Query("delete from item where id in (:idList)")
+    suspend fun deleteListOfNotes(idList: List<Int>)
 }

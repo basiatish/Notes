@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/color_picker"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <View
+        android:id="@+id/orange"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:background="@drawable/color_dot_background"
+        android:backgroundTint="@color/orange_100" />
+
+    <View
+        android:id="@+id/yellow"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:background="@drawable/color_dot_background"
+        android:backgroundTint="@color/yellow" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/green"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:background="@drawable/color_dot_background"
+        android:backgroundTint="@color/green" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/red"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:background="@drawable/color_dot_background"
+        android:backgroundTint="@color/red" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/blue"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:background="@drawable/color_dot_background"
+        android:backgroundTint="@color/blue" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/pink"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:background="@drawable/color_dot_background"
+        android:backgroundTint="@color/pink" />
+
+</LinearLayout>

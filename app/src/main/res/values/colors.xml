@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ffa03a</color>
-    <color name="colorPrimaryDark">#c77100</color>
-    <color name="colorOnPrimary">#000000</color>
-    <color name="colorSecondary">#bc4c3b</color>
-    <color name="colorOnSecondary">#ffffff</color>
+    <color name="orange_100">#ffa03a</color>
+    <color name="orange_80">#c77100</color>
+    <color name="orange_60">#fec868</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#f4f3ee</color>
+    <color name="yellow">#FFD500</color>
+    <color name="green">#007932</color>
+    <color name="red">#D50000</color>
+    <color name="blue">#0035C6</color>
+    <color name="pink">#FF00F2</color>
+
+
+    <color name="orange_40">#b17201</color>
 </resources>

@@ -7,8 +7,9 @@
     <string name="edit_note">Изменить заметку</string>
     <string name="add_note">Добавить заметку</string>
     <string name="action">Действие</string>
-    <string name="type_something">Введите что-нибудь...</string>
+    <string name="type_something">Введите что-нибудь…</string>
     <string name="untitled">Без названия</string>
     <string name="nothing_save">Нечего сохранять</string>
     <string name="no_notes_available">Нет доступных заметок</string>
+    <string name="delete_note">Удалить заметки</string>
 </resources>
