@@ -1,4 +1,4 @@
-package com.example.newnotes
+package com.basiatish.notes
 
 import android.content.Context
 import android.os.Bundle
@@ -14,8 +14,8 @@ import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.newnotes.data.Item
-import com.example.newnotes.databinding.FragmentAddNoteBinding
+import com.basiatish.notes.data.Item
+import com.basiatish.notes.databinding.FragmentAddNoteBinding
 
 
 class AddNoteFragment : Fragment() {

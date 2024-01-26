@@ -1,8 +1,8 @@
-package com.example.newnotes
+package com.basiatish.notes
 
 import androidx.lifecycle.*
-import com.example.newnotes.data.Item
-import com.example.newnotes.data.ItemDao
+import com.basiatish.notes.data.Item
+import com.basiatish.notes.data.ItemDao
 import kotlinx.coroutines.launch
 import java.lang.Exception
 import java.lang.IllegalArgumentException

@@ -1,4 +1,4 @@
-package com.example.newnotes
+package com.basiatish.notes
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -10,8 +10,8 @@ import android.view.animation.AnimationUtils
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.newnotes.data.Item
-import com.example.newnotes.databinding.NoteListCardBinding
+import com.basiatish.notes.data.Item
+import com.basiatish.notes.databinding.NoteListCardBinding
 
 class NoteListAdapter(private val clickListener: OnItemClickListener): ListAdapter<Item,
         NoteListAdapter.NoteListViewHolder>(DiffCallBack) {

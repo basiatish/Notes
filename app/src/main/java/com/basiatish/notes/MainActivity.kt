@@ -1,4 +1,4 @@
-package com.example.newnotes
+package com.basiatish.notes
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

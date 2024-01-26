@@ -1,4 +1,4 @@
-package com.example.newnotes.data
+package com.basiatish.notes.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

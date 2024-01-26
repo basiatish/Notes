@@ -1,7 +1,7 @@
-package com.example.newnotes
+package com.basiatish.notes
 
 import android.app.Application
-import com.example.newnotes.data.ItemRoomDatabase
+import com.basiatish.notes.data.ItemRoomDatabase
 
 class NoteApplication : Application() {
     val database: ItemRoomDatabase by lazy { ItemRoomDatabase.getDatabase(this) }

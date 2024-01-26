@@ -1,4 +1,4 @@
-package com.example.newnotes
+package com.basiatish.notes
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,8 +15,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.example.newnotes.data.Item
-import com.example.newnotes.databinding.FragmentNotesListBinding
+import com.basiatish.notes.data.Item
+import com.basiatish.notes.databinding.FragmentNotesListBinding
 
 
 class NoteListFragment : Fragment(), OnItemClickListener {
